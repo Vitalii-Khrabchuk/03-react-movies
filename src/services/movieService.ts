@@ -31,4 +31,3 @@ export default async function fetchMovies(
   }
   return [];
 }
-
