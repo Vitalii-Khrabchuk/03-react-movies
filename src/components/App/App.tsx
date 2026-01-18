@@ -1,8 +1,9 @@
-import SearchBar from '../SearchBar/SearchBar';
-import Loader from '../Loader/Loader';
-import ErrorMessage from '../ErrorMessage/ErrorMessage';
-import MovieGrid from '../MovieGrid/MovieGrid';
-import MovieModal from '../MovieModal/MovieModal';
+
+import SearchBar from '../SearchBar/SearchBar.tsx';
+import Loader from '../Loader/Loader.tsx';
+import ErrorMessage from '../ErrorMessage/ErrorMessage.tsx';
+import MovieGrid from '../MovieGrid/MovieGrid.tsx';
+import MovieModal from '../MovieModal/MovieModal.tsx';
 
 import fetchMovies from '../../services/movieService.ts';
 import toast, { Toaster } from 'react-hot-toast';
